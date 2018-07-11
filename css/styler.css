@@ -1,0 +1,84 @@
+html, body {
+  min-width:290px;
+  max-width:320px;
+  min-height:auto;
+  max-height:auto;
+  margin:5px;
+  padding:2px;
+  font-family:"Righteous", san-serif;
+}
+
+#main  {
+  border:2px solid darkorange;
+  margin:4px;
+}
+
+#current  {
+  margin-right: 2px;
+  font-size:19px;
+  font-style:normal;
+  color:#013ADF;
+}
+
+#rtValue  {
+  color:#027027;
+  font-weight:bold;
+  font-style:italic;
+  margin-left:8px;
+}
+
+#inTxt  {
+  font-size:22px;
+  font-weight:bold;
+  font-style:italic;
+  margin-left:-30px;
+  margin-top:10px;
+  margin-bottom:-3px;
+}
+
+#lblValue  {
+  font-size:18px;
+  font-style:normal;
+  color:green;
+  text-align:center;
+}
+
+.icon  {
+  font-size: 12px;
+  font-weight:normal;
+  color:inherit;
+}
+
+.cpy  {
+  font-size: 10px;
+  color:gray;
+  font-style:italic;
+  text-align:center;
+}
+
+#result  {
+  margin-left:15px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+.oj  {
+  color: darkorange;
+}
+
+.gr  {
+  color:green;
+}
+
+.fafa  {
+  color: darkorange; 
+  font-weight:bold;
+  font-style:italic;
+}
+
+.fafa:hover  {
+  background-color:lightgray;
+  color: darkorange; 
+  font-weight:normal;
+  font-style:italic;
+}
