@@ -1,23 +1,29 @@
 html, body {
-  min-width:290px;
-  max-width:320px;
-  min-height:auto;
-  max-height:auto;
-  margin:5px;
-  padding:2px;
+  min-width:280px;
+  max-width:280px;
+  min-height:490px;
+  max-height:495px;
+  margin:19px;
+  padding:0px;
   font-family:"Righteous", san-serif;
 }
 
-#main  {
-  border:2px solid darkorange;
-  margin:4px;
+body{
+  border:10px solid red;
 }
 
-#current  {
+#main  {
+  border:0px solid darkorange;
+  margin:10px;
+}
+
+#current, p  {
   margin-right: 2px;
   font-size:19px;
   font-style:normal;
   color:#013ADF;
+  text-align:center;
+  padding-bottom:7px;
 }
 
 #rtValue  {
@@ -81,4 +87,8 @@ html, body {
   color: darkorange; 
   font-weight:normal;
   font-style:italic;
+}
+
+input{
+  max-width:35%;
 }
